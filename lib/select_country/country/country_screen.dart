@@ -84,7 +84,7 @@ class _CountryPageState extends State<CountryPage> {
     final label = widget.isMultiSelection ? 'Countries' : 'Country';
 
     return PreferredSize(
-      preferredSize:  const Size.fromHeight(55),
+      preferredSize:  const Size.fromHeight(100),
       child: AppBar(
         title: Text('Select $label'),
         actions: [
